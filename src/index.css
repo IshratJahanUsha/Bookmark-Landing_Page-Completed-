@@ -36,10 +36,11 @@ body {
   nav.open {
     background-color: hsl(229, 31%, 21%, 0.9);
     position: fixed;
-    top: 0;
+    /* top: 0;
     left: 0;
     bottom: 0;
-    right: 0;
+    right: 0; */
+    inset: 0;
     z-index: 999;
     padding: 32px;
     opacity: 1;
@@ -135,10 +136,10 @@ footer {
     height: 300px;
   }
 
-  .bg {
+  /* .bg {
     right: -40%;
     width: 120%;
-  }
+  } */
 
   .bg-left {
     left: -40%;

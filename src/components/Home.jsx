@@ -7,7 +7,7 @@ export default function Home() {
             <section className="flex flex-col-reverse px-8 py-20 lg:grid lg:grid-cols-2 lg:gap-16 lg:place-items-center max-w-7xl mx-auto">
 
                 <article className="text-center lg:text-left flex flex-1 flex-col">
-                    <h2 className="text-3xl md:text-4 lg:text-5xl mb-6">
+                    <h2 className="text-3xl md:text-4 lg:text-4xl mb-6">
                         A Simple Bookmark Manager
                     </h2>
                     <p>

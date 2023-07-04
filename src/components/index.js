@@ -1,17 +1,18 @@
+import CTA from "./CTA";
+import Download from "./Download";
+import FAQs from "./FAQs";
+import Footer from "./Footer";
+import Header from "./Header";
+import Home from "./Home";
+import Tabs from "./Tabs";
 
-
-
-
-// const Button = { data: { text, py2, px, bg-color, bg-color } } => {
-//     <button className = `
-//     py2
-//     ${px}
-//     ${bg-color}
-//     ${text-color}
-//     hover:${bg-color}
-//     hover:${text-color}
-
-//       `> { text }
-//     </button >
-// }
+export{
+    CTA,
+    Download,
+    FAQs,
+    Footer,
+    Header,
+    Home,
+    Tabs
+};
 

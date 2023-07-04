@@ -2,18 +2,17 @@ import React from "react";
 
 export default function CTA() {
 
-  // const EmailValidationForm = () => {
-  //   const [email, setEmail] = useState('');
-  //   const [isValidEmail, setIsValidEmail] = useState(false);
+    // const [email, setEmail] = useState('');
+    // const [isValidEmail, setIsValidEmail] = useState(false);
 
-  //   const handleEmailChange = (e) => {
-  //     setEmail(e.target.value);
-  //   };
+    // const handleEmailChange = (e) => {
+    //   setEmail(e.target.value);
+    // };
 
-  //   const validateEmail = () => {
-  //     const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  //     setIsValidEmail(pattern.test(email));
-  //   };
+    // const validateEmail = () => {
+    //   const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    //   setIsValidEmail(pattern.test(email));
+    // };
 
     return (
       <>

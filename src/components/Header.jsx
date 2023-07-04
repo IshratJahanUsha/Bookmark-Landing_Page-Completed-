@@ -1,20 +1,8 @@
 import React, { useState } from "react";
-
-import logo from "../images/logo-bookmark.svg";
-import logoLight from "../images/logo-bookmark-light.svg";
-import menu from "../images/icon-hamburger.svg";
-import closeMenu from "../images/icon-close.svg";
-import facebook from "../images/icon-facebook.svg";
-import twitter from "../images/icon-twitter.svg";
+import {logo,logoLight,menu,closeMenu,facebook,twitter} from "../images";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-
- // const handleCloseNavbar = () => {
-  //   setTimeout(() => {
-  //     setIsOpen(false);
-  //   }, 300); // 3-second delay
-  // }
 
   return (
     <>

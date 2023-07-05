@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-import arrow from "../images/icon-arrow.svg";
-import arrowRed from "../images/icon-arrow-red.svg";
+import arrow from "../../public/images/icon-arrow.svg";
+import arrowRed from "../../public/images/icon-arrow-red.svg";
 
-import {questions} from "./constants";
+import {questions} from "../constants/constants";
 // console.log(questions)
 
 export default function FAQs() {

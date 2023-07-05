@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../images/illustration-hero.svg";
+import hero from "../../public/images/illustration-hero.svg";
 
 export default function Home() {
     return (

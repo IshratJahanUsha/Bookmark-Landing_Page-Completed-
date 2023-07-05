@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import {data} from "./constants";
+import {data} from "../constants/constants";
 // console.log(data)
 
 export default function Tabs() {

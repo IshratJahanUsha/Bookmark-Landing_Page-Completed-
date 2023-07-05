@@ -1,8 +1,8 @@
 import React from "react";
-import chrome from "../images/logo-chrome.svg";
-import firefox from "../images/logo-firefox.svg";
-import opera from "../images/logo-opera.svg";
-import dots from "../images/bg-dots.svg";
+import chrome from "../../public/images/logo-chrome.svg";
+import firefox from "../../public/images/logo-firefox.svg";
+import opera from "../../public/images/logo-opera.svg";
+import dots from "../../public/images/bg-dots.svg";
 
 export default function Download() {
   return (

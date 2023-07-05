@@ -51,3 +51,19 @@ export const questions = [
             "Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.",
     },
 ];
+
+export const navLinks = [
+ {
+    id : "1",
+    title : "FEATURES",
+ },
+ {
+    id : "2",
+    title : "PRICING",
+ },
+ {
+    id : "3",
+    title : "CONTACT",
+ },
+
+];

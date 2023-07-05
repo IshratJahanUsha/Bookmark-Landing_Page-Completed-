@@ -1,7 +1,7 @@
 import React from "react";
-import facebook from "../../public/images/icon-facebook.svg";
-import twitter from "../../public/images/icon-twitter.svg";
-import logo from "../../public/images/logo-bookmark-light.svg";
+import facebook from "../images/icon-facebook.svg";
+import twitter from "../images/icon-twitter.svg";
+import logo from "../images/logo-bookmark-light.svg";
 
 export default function Footer() {
   return (

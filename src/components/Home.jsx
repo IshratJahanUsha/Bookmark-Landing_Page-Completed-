@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../../public/images/illustration-hero.svg";
+import hero from "../images/illustration-hero.svg";
 
 export default function Home() {
     return (
@@ -11,9 +11,9 @@ export default function Home() {
                         A Simple Bookmark Manager
                     </h2>
                     <p>
-                        A clean and simple interface to organize your favourite websites.
+                        {/* A clean and simple interface to organize your favourite websites.
                         Open a new browser tab and see your sites load instantly. Try it for
-                        free.
+                        free. */}
                     </p>
                     <ul className="mt-10 flex items-center justify-center flex-wrap gap-4 lg:justify-start">
                         <li>

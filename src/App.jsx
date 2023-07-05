@@ -1,5 +1,5 @@
 import React from 'react';
-import {CTA, Header, Download, FAQs, Footer, Home} from "./components/index"
+import {CTA, Header, Download, FAQs, Footer, Home, Tabs} from "./components/index"
 
 
 function App() {
@@ -8,10 +8,10 @@ function App() {
       <Header />
       <Home />
       {/* <Tabs /> */}
-      <Download />
-      <FAQs />
-      <CTA />
-      <Footer />
+      {/* <Download /> */}
+      {/* <FAQs /> */}
+      {/* <CTA /> */}
+      {/* <Footer /> */}
     </>
   );
 }

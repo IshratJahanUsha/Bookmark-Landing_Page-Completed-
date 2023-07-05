@@ -10,9 +10,9 @@ body {
 
 /* responsive navbar */
 @layer base {
-  nav {
+  /* nav {
     @apply flex justify-between flex-col opacity-0 absolute -z-50 lg:opacity-100 lg:relative lg:z-auto;
-  }
+  } */
 
   h1,
   h2,
@@ -33,50 +33,52 @@ body {
 }
 
 @layer components {
-
+  .x-axis-padding {
+    @apply px-6 md:px-10 lg:px-12 xl:px-14 py-8
+  }
 }
 
 @layer utilities {
   nav ul li button {
-    color: #fff;
+    /* color: #fff; */
     font-size: 16px;
   }
-  
-  
+
+
   .btn-home {
     border: 1px solid transparent;
   }
-  
+
   .btn-home:hover {
     border: 1px solid hsl(232, 52%, 22%);
   }
-  
+
   .bg-cta {
     background-color: hsl(231, 69%, 60%);
   }
-  
+
   .btn-blue {
     background-color: hsl(231, 69%, 60%);
     border: 1px solid transparent;
   }
-  
+
   .btn-blue:hover {
     background-color: #fff;
     color: hsl(231, 69%, 60%);
     border: 1px solid hsl(231, 69%, 60%);
   }
-  
-  .btn-red {
+
+  /* .btn-red {
     background-color: #fa5757;
     border: 1px solid transparent;
   }
-  
+
   .btn-red:hover {
     background-color: #fff;
     color: #fa5757;
     border: 1px solid #fa5757;
-  }
-  
+  } */
+
   .bg {
     position: absolute;
     right: -32px;
@@ -87,7 +89,7 @@ body {
     border-radius: 200px 0 0 200px;
     z-index: -1;
   }
-  
+
   .bg-left {
     position: absolute;
     left: -32px;
@@ -98,7 +100,7 @@ body {
     border-radius: 0 200px 200px 0;
     z-index: -1;
   }
-  
+
   footer {
     background-color: hsl(229, 31%, 21%);
   }
@@ -114,37 +116,36 @@ body {
       transition: brackground-color .5s;
     }
   } */
-  
+
   @media (min-width: 1024px) {
     * {
       font-size: 18px;
     }
-  
+
     body {
       overflow-x: hidden;
     }
-  
+
     /* nav.open {
       background-color: transparent;
       position: relative;
       z-index: auto;
       padding: 0;
     } */
-  
+
     .bg,
     .bg-left {
       height: 300px;
     }
-  
-    .bg {
+
+    /* .bg {
       right: -40%;
       width: 120%;
-    }
-  
+    } */
+
     .bg-left {
       left: -40%;
       width: 120%;
     }
   }
 }
-

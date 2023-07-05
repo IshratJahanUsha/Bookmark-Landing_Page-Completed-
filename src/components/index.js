@@ -5,8 +5,9 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Home from "./Home";
 import Tabs from "./Tabs";
-import Navbar from "./Navbar"
-import OverlyNav from "./OverlyNav"
+import Navbar from "./Navbar";
+import OverlyNav from "./OverlyNav";
+import BtnSecondary from "./BtnSecondary";
 
 export{
     CTA,
@@ -17,6 +18,7 @@ export{
     Home,
     Tabs,
     Navbar,
-    OverlyNav
+    OverlyNav,
+    BtnSecondary
 };
 

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import arrow from "../../public/images/icon-arrow.svg";
 import arrowRed from "../../public/images/icon-arrow-red.svg";
 
-import {questions} from "../constants/constants";
+import {questions} from "../constants/constant";
 // console.log(questions)
 
 export default function FAQs() {

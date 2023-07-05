@@ -1,6 +1,8 @@
 import React from 'react'
 import { logoLight, closeBtn, facebook, twitter } from "../../public/images"
-import { navLinks } from "../constants"
+
+
+import { navLinks } from "../constants/constant"
 
 const OverlyNav = ({ setIsOpen }) => {
     return (

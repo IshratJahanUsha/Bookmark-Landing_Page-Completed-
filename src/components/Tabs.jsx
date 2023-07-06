@@ -35,7 +35,7 @@ export default function Tabs() {
                 <article className="text-center lg:text-left lg:flex-1">
                     <h2 className="text-3xl mt-16 mb-8 lg:text-4xl">{title}</h2>
                     <p className="mb-10">{desc}</p>
-                    <button className="btn-blue rounded shadow-lg">
+                    <button className="btn-blue rounded shadow-lg transition-all">
                         {link}
                     </button>
                 </article>

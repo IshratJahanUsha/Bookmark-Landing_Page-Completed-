@@ -22,7 +22,7 @@ export default function Download() {
             <h3 className="text-xl mb-4">Add to Chrome</h3>
             <p className="text-sm">Minimum version 62</p>
             <img src={dots} alt="" className="block mx-auto my-4" />
-            <button className="btn-blue text-white py-2 px-4 rounded shadow-lg hover:opacity-75">
+            <button className="btn-blue py-2 px-4 rounded shadow-lg">
               Add & Install Extension
             </button>
           </div>
@@ -32,7 +32,7 @@ export default function Download() {
             <h3 className="text-xl mb-4">Add to Firefox</h3>
             <p className="text-sm">Minimum version 55</p>
             <img src={dots} alt="" className="block mx-auto my-4" />
-            <button className="btn-blue text-white py-2 px-4 rounded shadow-lg hover:opacity-75">
+            <button className="btn-blue py-2 px-4 rounded shadow-lg">
               Add & Install Extension
             </button>
           </div>
@@ -42,7 +42,7 @@ export default function Download() {
             <h3 className="text-xl mb-4">Add to Opera</h3>
             <p className="text-sm">Minimum version 46</p>
             <img src={dots} alt="" className="block mx-auto my-4" />
-            <button className="btn-blue text-white py-2 px-4 rounded shadow-lg hover:opacity-75">
+            <button className="btn-blue py-2 px-4 rounded shadow-lg">
               Add & Install Extension
             </button>
           </div>

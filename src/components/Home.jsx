@@ -17,12 +17,12 @@ export default function Home() {
                     </p>
                     <ul className="mt-10 flex items-center justify-center flex-wrap gap-4 lg:justify-start">
                         <li>
-                            <button className="btn-blue text-white py-2 px-4 rounded shadow-lg hover:opacity-75">
+                            <button className="btn-blue rounded shadow-lg">
                                 Get it on Chrome
                             </button>
                         </li>
                         <li>
-                            <button className="btn-home bg-slate-100 text-slate-800 py-2 px-4 rounded shadow-lg hover:opacity-75">
+                            <button className="bg-slate-100 text-slate-800 py-2 px-4 rounded shadow-lg hover:opacity-75 border-2 border-transparent hover:border-[#1b2355] transition-all">
                                 Get it on Firefox
                             </button>
                         </li>

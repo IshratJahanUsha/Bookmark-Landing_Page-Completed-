@@ -25,6 +25,11 @@ const OverlyNav = ({ setIsOpen }) => {
                                 </h3>
                             );
                         })}
+                        {/* <li className='border-t-[1px] list-none'>
+                            <button className="text-white hover:text-red-400 tracking-widest px-6 py-2 mt-4 w-full rounded-lg border-2 border-white">
+                                LOGIN
+                            </button>
+                        </li> */}
                         <button className="text-white hover:text-red-400 tracking-widest px-6 py-2 mt-4 w-full rounded-lg border-2 border-white">
                             LOGIN
                         </button>

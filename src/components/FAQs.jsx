@@ -56,7 +56,7 @@ export default function FAQs() {
           ))}
         </div>
 
-        <button className="btn-blue text-white py-2 px-4 rounded shadow-lg hover:opacity-75 block mx-auto">
+        <button className="btn-blue py-2 px-4 rounded shadow-lg block mx-auto">
           More Info
         </button>
 

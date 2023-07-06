@@ -25,16 +25,16 @@ const OverlyNav = ({ setIsOpen }) => {
                                 </h3>
                             );
                         })}
-                        {/* <li className='border-t-[1px] list-none'>
+                        <li className='border-white/25 border-t-[1px] list-none'>
                             <button className="text-white hover:text-red-400 tracking-widest px-6 py-2 mt-4 w-full rounded-lg border-2 border-white">
                                 LOGIN
                             </button>
-                        </li> */}
-                        <button className="text-white hover:text-red-400 tracking-widest px-6 py-2 mt-4 w-full rounded-lg border-2 border-white">
+                        </li>
+                        {/* <button className="text-white hover:text-red-400 tracking-widest px-6 py-2 mt-4 w-full rounded-lg border-2 border-white">
                             LOGIN
-                        </button>
+                        </button> */}
 
-                        <ul className=" flex items-center justify-center gap-12 fixed bottom-8 w-full ">
+                        <ul className="nav-social flex items-center justify-center gap-12 absolute bottom-8 left-[50%] ">
                             <li>
                                 <img src={facebook} alt="facebook" />
                             </li>

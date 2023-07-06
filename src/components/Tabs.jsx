@@ -8,7 +8,6 @@ export default function Tabs() {
 
     return (
         <>
-
             <ul className="flex justify-center flex-col text-center my-10 md:flex-row">
                 {tabs.map((tab, index) => (
                     <li
@@ -31,7 +30,6 @@ export default function Tabs() {
                     <img src={image} alt="" className="block mx-auto w-full" />
                     <div className="bg-left"></div>
                 </article>
-
                 <article className="text-center lg:text-left lg:flex-1">
                     <h2 className="text-3xl mt-16 mb-8 lg:text-4xl">{title}</h2>
                     <p className="mb-10">{desc}</p>
@@ -40,9 +38,6 @@ export default function Tabs() {
                     </button>
                 </article>
             </div>
-
-
         </>
-
     )
 }

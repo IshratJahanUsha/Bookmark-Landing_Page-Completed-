@@ -41,7 +41,7 @@ body {
 @layer utilities {
   nav ul li button {
     /* color: #fff; */
-    font-size: 16px;
+    /* font-size: 16px; */
   }
 
   .btn-blue {
@@ -55,6 +55,10 @@ body {
     color: hsl(231, 69%, 60%);
     border: 1px solid hsl(231, 69%, 60%);
     opacity: 0.75;
+  }
+
+  .nav-social{
+    transform: translateX(-50%);
   }
 
   .bg-cta {

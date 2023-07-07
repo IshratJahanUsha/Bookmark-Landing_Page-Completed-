@@ -68,3 +68,32 @@
     <li><i class="flex hover:text-bookmark-red text-white text-2xl fab fa-twitter"></i></li>
     <li><i class="flex hover:text-bookmark-red text-white text-2xl fab fa-facebook-square"></i></li>
   </div>
+
+//Extensions code :
+{/* 
+  <article className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <div className="bg-white shadow-2xl text-center p-8 rounded">
+      <img src={chrome} alt="" className="block mx-auto mb-4" />
+      <h3 className="text-xl mb-4">Add to Chrome</h3>
+      <p className="text-sm">Minimum version 62</p>
+      <img src={dots} alt="" className="block mx-auto my-4" />
+      <BtnExtension />
+    </div>
+
+    <div className="bg-white shadow-2xl text-center p-8 rounded lg:transform lg:translate-y-10">
+      <img src={firefox} alt="" className="block mx-auto mb-4" />
+      <h3 className="text-xl mb-4">Add to Firefox</h3>
+      <p className="text-sm">Minimum version 55</p>
+      <img src={dots} alt="" className="block mx-auto my-4" />
+      <BtnExtension />
+    </div>
+
+    <div className="bg-white shadow-2xl text-center p-8 rounded lg:transform lg:translate-y-20">
+      <img src={opera} alt="" className="block mx-auto mb-4" />
+      <h3 className="text-xl mb-4">Add to Opera</h3>
+      <p className="text-sm">Minimum version 46</p>
+      img src={dots} alt="" className="block mx-auto my-4" />
+      <BtnExtension />
+    </div>
+  </article> 
+*/}

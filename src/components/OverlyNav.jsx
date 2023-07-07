@@ -1,6 +1,13 @@
-import React from 'react'
-import { logoLight, closeBtn, facebook, twitter } from "../images"
-import { navLinks } from "../constants"
+import React from 'react';
+import { logoLight, closeBtn } from "../images";
+import { navLinks } from "../constants";
+
+import { ReactComponent as Facebook } from "../images/icon-facebook.svg";
+import { ReactComponent as Twitter } from "../images/icon-twitter.svg";
+
+console.log(Facebook)
+console.log(Twitter)
+
 
 const OverlyNav = ({ setIsOpen }) => {
     return (
@@ -30,17 +37,14 @@ const OverlyNav = ({ setIsOpen }) => {
                                 LOGIN
                             </button>
                         </li>
-                        {/* <button className="text-white hover:text-red-400 tracking-widest px-6 py-2 mt-4 w-full rounded-lg border-2 border-white">
-                            LOGIN
-                        </button> */}
 
                         <ul className="nav-social flex items-center justify-center gap-12 absolute bottom-8 left-[50%] ">
-                            <li>
-                                <img src={facebook} alt="facebook" />
-                            </li>
-                            <li>
-                                <img src={twitter} alt="twitter" />
-                            </li>
+                            <svg-style>
+                                <Facebook />
+                            </svg-style>
+                            <svg-style>
+                                <Twitter />
+                            </svg-style>
                         </ul>
 
                     </div>

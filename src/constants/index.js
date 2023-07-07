@@ -53,17 +53,39 @@ export const questions = [
 ];
 
 export const navLinks = [
- {
-    id : "1",
-    title : "FEATURES",
- },
- {
-    id : "2",
-    title : "PRICING",
- },
- {
-    id : "3",
-    title : "CONTACT",
- },
+    {
+        id: "1",
+        title: "FEATURES",
+    },
+    {
+        id: "2",
+        title: "PRICING",
+    },
+    {
+        id: "3",
+        title: "CONTACT",
+    },
+
+];
+
+export const extensions = [
+    { 
+        id:"1",
+        image: "../images/logo-chrome.svg",
+        browser:"Add to Chrome",
+        version:"Minimum version 62",
+    },
+    { 
+        id:"2",
+        image: "../images/logo-firefox.svg",
+        browser:"Add to Firefox",
+        version:"Minimum version 55",
+    },
+    { 
+        id:"3",
+        image: "../images/logo-opera.svg",
+        browser:"Add to Opera",
+        version:"Minimum version 46",
+    }
 
 ];

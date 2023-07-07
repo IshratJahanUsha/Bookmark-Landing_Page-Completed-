@@ -8,7 +8,7 @@ function App() {
       <Header />
       <Home />
       <Features />
-      {/* <Download /> */}
+      <Download />
       {/* <FAQs /> */}
       {/* <CTA /> */}
       {/* <Footer /> */}

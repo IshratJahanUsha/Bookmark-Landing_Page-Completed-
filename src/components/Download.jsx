@@ -23,12 +23,13 @@ export default function Download() {
         <article className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 
           {extensions.map((card) => (
-            <Extensions key={card.id} image={card.image} name={card.browser} description={card.version} />
+            <Extensions key={card.id} image={card.image} browser={card.browser} version={card.version} />
           ))}
 
         </article>
 
       </section>
+      
     </>
   );
 }

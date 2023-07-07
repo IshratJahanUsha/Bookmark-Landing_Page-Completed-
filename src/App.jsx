@@ -6,9 +6,9 @@ function App() {
   return (
     <>
       <Header />
-      <Home />
-      <Features />
-      <Download />
+      {/* <Home /> */}
+      {/* <Features /> */}
+      {/* <Download /> */}
       {/* <FAQs /> */}
       {/* <CTA /> */}
       {/* <Footer /> */}

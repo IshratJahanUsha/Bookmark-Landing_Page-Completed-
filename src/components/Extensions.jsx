@@ -1,7 +1,4 @@
 import React from "react";
-
-
-
 import { dots } from "../images";
 import BtnExtension from "./BtnExtension";
 

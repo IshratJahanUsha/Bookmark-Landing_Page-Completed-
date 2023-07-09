@@ -10,8 +10,8 @@ function App() {
       <Features />
       <Download />
       <FaqMain />
-      {/* <CTA /> */}
-      {/* <Footer /> */}
+      <CTA />
+      <Footer />
     </>
   );
 }

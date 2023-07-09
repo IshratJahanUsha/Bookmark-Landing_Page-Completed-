@@ -25,9 +25,9 @@ const FAQs = () => {
                                 </h3>
                                 <button>
                                     {activeIndex === index ? (
-                                        <img src={arrowClose} alt="" className="arrow transform rotate-180"/>
+                                        <img src={arrowClose} alt="" className="arrow transform rotate-180" onClick={() => toggleAnswer(index)}/>
                                     ) : (
-                                        <img src={arrowOpen} alt=""/>
+                                        <img src={arrowOpen} alt="" onClick={() => toggleAnswer(index)}/>
                                     )}
                                 </button>
                             </div>

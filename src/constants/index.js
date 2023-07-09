@@ -76,13 +76,13 @@ export const questions = [
         id: 2,
         question: "How can I request a new browser?",
         answer:
-            "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.",
+            "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue, non ligula. Mauris augue massa, ultricies non ligula.",
     },
     {
         id: 3,
         question: "Is there a mobile app?",
         answer:
-            "Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.",
+            "Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum vulputate eget. Cras in ligula quis est pharetra mattis sit amet purus. Mauris augue massa, ultricies non ligula.",
     },
     {
         id: 4,

@@ -84,40 +84,44 @@ body {
     z-index: -1;
   }
 
-  /* faqs start*/
-  .wrapper {
-    /* height: 100vh; */
-    width: 100vw;
-  }
-
-  .accordion {
-    width: 500px;
-  }
-
   .item {
     background-color: #fff;
     margin-bottom: 5px;
-
   }
- 
+
+  @keyframes closeFaq {
+    from {height: 100px;}
+    to {height: 0px;}
+  }
   .content {
     line-height: 1.8;
     color: rgb(99, 98, 98);
     height:0;
     overflow: hidden;
-    /* animation: 1s red ease-in-out; */
-    /* transition: all 1s red cubic-bezier(0,1,0,1); */
+    animation: closeFaq 0.5s ease;
   }
-
+  @keyframes openFaq {
+    from {max-height: 0px;}
+    to {max-height: 500px;}
+  }
   .content.show{
     color: rgb(99, 98, 98);
     height: auto;
-    /* max-height: 9999px; */
-    animation: 1s red ease-in-out;
-    /* transition: all 1s red cubic-bezier(1,0,1,0); */
+    animation: openFaq 1.5s ease;
   }
 
-  /* faqs ens */
+   /* .content {
+    line-height: 1.8;
+    color: rgb(99, 98, 98);
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  }
+  .content.show {
+    color: rgb(99, 98, 98);
+    max-height: 500px;
+    transition: max-height 0.5s cubic-bezier(1, 0, 1, 0);
+  } */
 
   footer {
     background-color: hsl(229, 31%, 21%);

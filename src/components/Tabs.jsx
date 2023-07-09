@@ -30,6 +30,7 @@ export default function Tabs() {
                     <img src={image} alt="" className="block mx-auto w-full" />
                     <div className="bg-left"></div>
                 </article>
+
                 <article className="text-center lg:text-left lg:flex-1">
                     <h2 className="text-3xl mt-16 mb-8 lg:text-4xl">{title}</h2>
                     <p className="mb-10">{desc}</p>

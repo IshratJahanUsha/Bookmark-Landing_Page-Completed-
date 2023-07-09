@@ -33,7 +33,6 @@ const OverlyNav = ({ setIsOpen }) => {
                                 LOGIN
                             </button>
                         </li>
-
                         <ul className="nav-social flex items-center justify-center gap-12 absolute bottom-8 left-[50%] ">
                             <svg-style>
                                 <Facebook />
@@ -42,10 +41,8 @@ const OverlyNav = ({ setIsOpen }) => {
                                 <Twitter />
                             </svg-style>
                         </ul>
-
                     </div>
                 </nav>
-
             </header>
         </>
     )

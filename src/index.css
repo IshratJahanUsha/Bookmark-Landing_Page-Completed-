@@ -9,7 +9,6 @@ body {
 }
 
 @layer base {
-
   h1,
   h2,
   h3,
@@ -25,7 +24,6 @@ body {
   button {
     @apply text-slate-600;
   }
-
 }
 
 @layer components {
@@ -39,7 +37,7 @@ body {
     color: #fff;
     background-color: rgb(250, 87, 87);
     border: 1px solid transparent;
-    transition: all;
+    transition: all 0.5s;
     border-radius: 0.25rem;
   }
   .btn-red:hover{
@@ -55,7 +53,6 @@ body {
     border: 1px solid transparent;
     border-radius: 0.25rem;
   }
-
   .btn-blue:hover {
     background-color: #fff;
     color: hsl(231, 69%, 60%);
@@ -122,15 +119,6 @@ body {
     margin: 1rem 0;
   }
 
-  @media (min-width: 1024px) {
-    .article-div div:nth-child(2){
-      transform: translateY(0.625rem);
-    }
-    .article-div div:nth-child(3){
-      transform: translateY(1.25rem );
-    }
-  }
-
   @media (min-width: 768px) {
     .footer-ul li:nth-child(2) {
       margin: 0rem;
@@ -154,6 +142,13 @@ body {
     .bg-left {
       left: -40%;
       width: 120%;
+    }
+
+    .article-div div:nth-child(2){
+      transform: translateY(0.625rem);
+    }
+    .article-div div:nth-child(3){
+      transform: translateY(1.25rem );
     }
   }
 }

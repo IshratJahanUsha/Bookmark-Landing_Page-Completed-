@@ -14,7 +14,6 @@ export default function Footer() {
             <img src={logoLight} alt="" />
 
             <ul className="footer-ul mt-6 md:mt-0 md:flex md:gap-6 lg:gap-10">
-
               {navLinks.map((links) => {
                 const { id, title } = links;
                 return (
@@ -24,8 +23,8 @@ export default function Footer() {
                   </li>
                 )
               })}
-
             </ul>
+
           </div>
 
           <ul className="flex items-center gap-4 lg:gap-10">
@@ -36,8 +35,8 @@ export default function Footer() {
               <Twitter />
             </svg-style>
           </ul>
+          
         </div>
-
       </footer>
     </>
   );

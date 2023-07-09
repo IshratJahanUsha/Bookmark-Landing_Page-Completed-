@@ -11,6 +11,7 @@ const Navbar = ({ setIsOpen }) => {
         alt="HumburgerMenu"
         onClick={() => setIsOpen(true)}
       />
+
       <nav className='space-x-8 hidden md:block'>
         {navLinks.map((links) => {
           const { id, title } = links;
@@ -21,10 +22,10 @@ const Navbar = ({ setIsOpen }) => {
             </li>
           )
         })}
+
         <button className='btn-red px-6 rounded py-2 shadow-lg'>
           LOGIN
         </button>
-        {/* <BtnSecondary text="LOGIN" /> */}
       </nav>
     </header>
   )

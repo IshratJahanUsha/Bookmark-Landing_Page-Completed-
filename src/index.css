@@ -33,11 +33,25 @@ body {
     @apply px-6 md:px-10 lg:px-12 xl:px-14 py-8
   }
 }
-
+/* className="
+                px-4 rounded py-2 shadow-lg md:w-40 text-sm " */
 @layer utilities {
+  .btn-red{
+    color: #fff;
+    background-color: rgb(250, 87, 87);
+    border: 1px solid transparent;
+    transition: all;
+    border-radius: 0.25rem;
+  }
+  .btn-red:hover{
+    color: rgb(250, 87, 87);
+    background-color: #fff;
+    border: 1px solid rgb(250, 87, 87);
+  }
+  
   .btn-blue {
     color: #fff;
-    padding: .5rem 1rem .5rem 1rem;
+    padding: .5rem 1rem;
     background-color: hsl(231, 69%, 60%);
     border: 1px solid transparent;
     border-radius: 0.25rem;
@@ -89,39 +103,30 @@ body {
     margin-bottom: 5px;
   }
 
-  @keyframes closeFaq {
-    from {height: 100px;}
-    to {height: 0px;}
-  }
   .content {
-    line-height: 1.8;
-    color: rgb(99, 98, 98);
-    height:0;
-    overflow: hidden;
-    animation: closeFaq 0.5s ease;
-  }
-  @keyframes openFaq {
-    from {max-height: 0px;}
-    to {max-height: 500px;}
-  }
-  .content.show{
-    color: rgb(99, 98, 98);
-    height: auto;
-    animation: openFaq 1.5s ease;
-  }
-
-   /* .content {
     line-height: 1.8;
     color: rgb(99, 98, 98);
     max-height: 0;
     overflow: hidden;
-    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    transition: all 0.7s cubic-bezier(0.42, 0, 0.58, 1);
   }
+    
   .content.show {
-    color: rgb(99, 98, 98);
     max-height: 500px;
-    transition: max-height 0.5s cubic-bezier(1, 0, 1, 0);
-  } */
+  }
+
+/* className="w-full py-2 px-4 rounded shadow-lg text-sm" */
+  .input-class{
+    font-size: .5rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-color: 1px red;
+    border-radius: ;
+
+  }
+  .input-error{
+    border-color: 1px red;
+  }
 
   footer {
     background-color: hsl(229, 31%, 21%);
@@ -157,3 +162,26 @@ body {
     }
   }
 }
+
+
+/* FAQ animation code */
+/* @keyframes closeFaq {
+  from {height: 100px;}
+  to {height: 0px;}
+}
+.content {
+  line-height: 1.8;
+  color: rgb(99, 98, 98);
+  height:0;
+  overflow: hidden;
+  animation: closeFaq 0.5s ease;
+}
+@keyframes openFaq {
+  from {max-height: 0px;}
+  to {max-height: 500px;}
+}
+.content.show{
+  color: rgb(99, 98, 98);
+  height: auto;
+  animation: openFaq 1.5s ease;
+} */

@@ -1,8 +1,6 @@
 import React from 'react'
-
 import { logo, menu } from "../images";
 import { navLinks } from '../constants';
-import { BtnSecondary } from "./index";
 
 const Navbar = ({ setIsOpen }) => {
   return (
@@ -23,7 +21,10 @@ const Navbar = ({ setIsOpen }) => {
             </li>
           )
         })}
-        <BtnSecondary text="LOGIN" />
+        <button className='btn-red px-6 rounded py-2 shadow-lg'>
+          LOGIN
+        </button>
+        {/* <BtnSecondary text="LOGIN" /> */}
       </nav>
     </header>
   )

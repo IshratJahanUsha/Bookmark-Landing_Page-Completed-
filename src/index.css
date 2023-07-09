@@ -117,15 +117,15 @@ body {
 
 /* className="w-full py-2 px-4 rounded shadow-lg text-sm" */
   .input-class{
-    font-size: .5rem;
+    font-size: .8rem;
     width: 100%;
     padding: 0.5rem 1rem;
-    border-color: 1px red;
-    border-radius: ;
-
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
   }
+  
   .input-error{
-    border-color: 1px red;
+    border: 1px solid red;
   }
 
   footer {

@@ -115,19 +115,6 @@ body {
     max-height: 500px;
   }
 
-/* className="w-full py-2 px-4 rounded shadow-lg text-sm" */
-  .input-class{
-    font-size: .8rem;
-    width: 100%;
-    padding: 0.5rem 1rem;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-  }
-  
-  .input-error{
-    border: 1px solid red;
-  }
-
   footer {
     background-color: hsl(229, 31%, 21%);
   }

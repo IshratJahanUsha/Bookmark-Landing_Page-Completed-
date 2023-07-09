@@ -8,10 +8,14 @@ import twitter from "./icon-twitter.svg";
 import chrome from "./logo-chrome.svg";
 import firefox from "./logo-firefox.svg";
 import opera from "./logo-opera.svg";
-// import tab1 from "./illustration-features-tab-1.svg";
-// import tab2 from "./illustration-features-tab-2.svg";
-// import tab3 from "./illustration-features-tab-3.svg";
+import dots from "./bg-dots.svg";
+import tabOne from "./illustration-features-tab-1.svg";
+import tabTwo from "./illustration-features-tab-2.svg";
+import tabThree from "./illustration-features-tab-3.svg";
+import arrowOpen from "./icon-arrow.svg"
+import arrowClose from "./icon-arrow-red.svg"
 
-export{
-    logo,logoLight,menu,closeBtn,facebook,twitter,chrome,firefox,opera,dots
+export {
+    logo, logoLight, menu, closeBtn, facebook, twitter, chrome, firefox, opera, 
+    dots, tabOne, tabTwo, tabThree, arrowOpen, arrowClose
 }

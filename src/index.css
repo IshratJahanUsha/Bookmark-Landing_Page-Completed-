@@ -8,11 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* responsive navbar */
 @layer base {
-  /* nav {
-    @apply flex justify-between flex-col opacity-0 absolute -z-50 lg:opacity-100 lg:relative lg:z-auto;
-  } */
 
   h1,
   h2,
@@ -39,17 +35,14 @@ body {
 }
 
 @layer utilities {
-  nav ul li button {
-    /* color: #fff; */
-    /* font-size: 16px; */
-  }
-
   .btn-blue {
     color: #fff;
     padding: .5rem 1rem .5rem 1rem;
     background-color: hsl(231, 69%, 60%);
     border: 1px solid transparent;
+    border-radius: 0.25rem;
   }
+
   .btn-blue:hover {
     background-color: #fff;
     color: hsl(231, 69%, 60%);
@@ -57,9 +50,10 @@ body {
     opacity: 0.75;
   }
 
-  .nav-social{
+  .nav-social {
     transform: translateX(-50%);
   }
+
   svg-style:hover path {
     fill: #fa5757;
   }
@@ -67,17 +61,6 @@ body {
   .bg-cta {
     background-color: hsl(231, 69%, 60%);
   }
-
-  /* .btn-red {
-    background-color: #fa5757;
-    border: 1px solid transparent;
-  }
-
-  .btn-red:hover {
-    background-color: #fff;
-    color: #fa5757;
-    border: 1px solid #fa5757;
-  } */
 
   .bg {
     position: absolute;
@@ -101,8 +84,53 @@ body {
     z-index: -1;
   }
 
+  /* faqs start*/
+  .wrapper {
+    /* height: 100vh; */
+    width: 100vw;
+  }
+
+  .accordion {
+    width: 500px;
+  }
+
+  .item {
+    background-color: #fff;
+    margin-bottom: 5px;
+
+  }
+ 
+  .content {
+    line-height: 1.8;
+    color: rgb(99, 98, 98);
+    height:0;
+    overflow: hidden;
+    /* animation: 1s red ease-in-out; */
+    /* transition: all 1s red cubic-bezier(0,1,0,1); */
+  }
+
+  .content.show{
+    color: rgb(99, 98, 98);
+    height: auto;
+    /* max-height: 9999px; */
+    animation: 1s red ease-in-out;
+    /* transition: all 1s red cubic-bezier(1,0,1,0); */
+  }
+
+  /* faqs ens */
+
   footer {
     background-color: hsl(229, 31%, 21%);
+  }
+
+  .footer-ul li:nth-child(2) {
+    margin: 1rem 0;
+  }
+
+  @media (min-width: 768px) {
+    .footer-ul li:nth-child(2) {
+      margin: 0rem;
+    }
   }
 
   @media (min-width: 1024px) {

@@ -1,15 +1,15 @@
 import React from 'react';
-import {CTA, Header, Download, FAQs, Footer, Home, Features} from "./components/index"
+import {CTA, Header, Download,FaqMain, Footer, Home, Features} from "./components/index"
 
 
 function App() {
   return (
     <>
       <Header />
-      {/* <Home /> */}
-      {/* <Features /> */}
-      {/* <Download /> */}
-      {/* <FAQs /> */}
+      <Home />
+      <Features />
+      <Download />
+      <FaqMain />
       {/* <CTA /> */}
       {/* <Footer /> */}
     </>

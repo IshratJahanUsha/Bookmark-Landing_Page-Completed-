@@ -17,7 +17,7 @@ export default function Home() {
                     </p>
                     <ul className="mt-10 flex items-center justify-center flex-wrap gap-4 lg:justify-start">
                         <li>
-                            <button className="btn-blue rounded shadow-lg">
+                            <button className="btn-blue rounded shadow-lg transition-all">
                                 Get it on Chrome
                             </button>
                         </li>

@@ -1,16 +1,16 @@
-import {chrome, firefox, opera } from "../images";
+import { tabOne, tabTwo, tabThree, chrome, firefox, opera} from "../images"
 
 export const navLinks = [
     {
-        id: "1",
+        id: 1,
         title: "FEATURES",
     },
     {
-        id: "2",
+        id: 2,
         title: "PRICING",
     },
     {
-        id: "3",
+        id: 3,
         title: "CONTACT",
     },
 
@@ -23,7 +23,7 @@ export const data = [
         desc: "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.",
         link: "More Info",
         button: "Simple Bookmarking",
-        image: "./image/illustration-features-tab-1.svg",
+        image: tabOne,
     },
     {
         id: 2,
@@ -31,7 +31,7 @@ export const data = [
         desc: "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.",
         link: "More Info",
         button: "Speedy Searching",
-        image: "./image/illustration-features-tab-2.svg",
+        image: tabTwo,
     },
     {
         id: 3,
@@ -39,28 +39,28 @@ export const data = [
         desc: "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.",
         link: "More Info",
         button: "Easy Sharing",
-        image: "./image/illustration-features-tab-3.svg",
+        image: tabThree,
     },
 ];
 
 export const extensions = [
-    {
-        id: "1",
+    { 
+        id:1,
         image: chrome,
-        browser: "Add to Chrome",
-        version: "Minimum version 62",
+        browser:"Add to Chrome",
+        version:"Minimum version 62",
     },
-    {
-        id: "2",
+    { 
+        id:2,
         image: firefox,
-        browser: "Add to Firefox",
-        version: "Minimum version 55",
+        browser:"Add to Firefox",
+        version:"Minimum version 55",
     },
-    {
-        id: "3",
+    { 
+        id:3,
         image: opera,
-        browser: "Add to Opera",
-        version: "Minimum version 46",
+        browser:"Add to Opera",
+        version:"Minimum version 46",
     }
 
 ];

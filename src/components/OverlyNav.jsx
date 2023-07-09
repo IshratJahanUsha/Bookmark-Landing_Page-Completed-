@@ -5,10 +5,6 @@ import { navLinks } from "../constants";
 import { ReactComponent as Facebook } from "../images/icon-facebook.svg";
 import { ReactComponent as Twitter } from "../images/icon-twitter.svg";
 
-console.log(Facebook)
-console.log(Twitter)
-
-
 const OverlyNav = ({ setIsOpen }) => {
     return (
         <>

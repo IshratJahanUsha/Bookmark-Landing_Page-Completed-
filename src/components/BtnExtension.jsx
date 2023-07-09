@@ -3,7 +3,7 @@ import React from 'react'
 const BtnExtension = () => {
     return (
         <>
-            <button className="btn-blue py-2 px-4 rounded shadow-lg">
+            <button className="btn-blue rounded shadow-lg transition-all">
                 Add & Install Extension
             </button>
         </>

@@ -1,6 +1,9 @@
 import CTA from "./CTA";
 import Download from "./Download";
 import FAQs from "./FAQs";
+
+
+import FaqMain from './FaqMain';
 import Footer from "./Footer";
 import Header from "./Header";
 import Home from "./Home";
@@ -13,6 +16,7 @@ export{
     CTA,
     Download,
     FAQs,
+    FaqMain,
     Footer,
     Header,
     Home,

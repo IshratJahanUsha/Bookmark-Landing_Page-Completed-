@@ -19,8 +19,3 @@ const Extensions = ({ image, browser, version }) => {
 
 export default Extensions
 
-// {
-//     extensions.map((card) => (
-//         <div key={card.id} image={card.image} name={card.browser} description={card.browser} />
-//     ))
-// }

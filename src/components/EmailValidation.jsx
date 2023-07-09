@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { PiWarningCircleFill } from 'react-icons/pi';
 
 const EmailValidation = () => {
     const [email, setEmail] = useState('');
@@ -14,11 +15,12 @@ const EmailValidation = () => {
             setErrorMessage('');
         }
     };
-
+//form  class =   md:items-center 
     return (
-        <div>
+        <>
             <form onSubmit={validateEmail} className="flex flex-col gap-4 md:flex-row md:items-center md:justify-center md:max-w-xl md:mx-auto">
-                <div className='flex flex-col mt-2 relative'>
+                
+                <div className='flex items-center flex-col mt-1 relative'>
                     <input
                         type="text"
                         value={email}
@@ -30,17 +32,21 @@ const EmailValidation = () => {
                     <p className="text-white bg-red-500 text-sm px-2 w-full rounded-b">
                         {errorMessage}
                     </p>
-                    <span className="absolute right-2 top-1/2 transform -translate-y-1/2 text-red-400">
 
-                    </span>
+                    {errorMessage && (
+                        <span className="absolute top-[0.65rem] right-2 transform translate-x-[-50%]">
+                            <PiWarningCircleFill className="text-red-500 bg-white h-5 w-5" />
+                        </span>
+                    )}
+
                 </div>
 
-                <button type="submit" className="btn-red px-4 py-2 rounded mt-2 md:mt-0 shadow-lg md:w-40 text-sm">
+                <button type="submit" className={`btn-red px-4 py-2 rounded shadow-lg md:w-40 text-sm text-sm mt-2 md:mt-0 ${errorMessage ? "md:mb-4" : "md:mb-0"}`}>
                     Contact Us
                 </button>
 
             </form>
-        </div>
+        </>
     )
 }
 

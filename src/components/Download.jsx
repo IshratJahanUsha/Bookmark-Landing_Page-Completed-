@@ -17,12 +17,10 @@ export default function Download() {
 
         </article>
 
-        <article className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <article className="article-div grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 
           {extensions.map((card, index) => (
-            <div key={card.id}
-              className={`${index === 0 ? 'lg:translate-y-0' : ''} ${index === 1 ? 'lg:translate-y-10' : ''} ${index === 2 ? 'lg:translate-y-20' : ''}`
-              }>
+            <div key={card.id} >
               <Extensions image={card.image} browser={card.browser} version={card.version} />
             </div>
 
@@ -35,3 +33,4 @@ export default function Download() {
     </>
   );
 }
+

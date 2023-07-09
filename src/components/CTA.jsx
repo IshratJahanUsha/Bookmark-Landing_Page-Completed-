@@ -14,11 +14,8 @@ export default function CTA() {
             Stay up to date with what we're doing
           </h2>
 
-          {/* <form className="flex flex-col gap-4 md:flex-row md:items-center md:justify-center md:max-w-xl md:mx-auto"> */}
+          <EmailValidation/>
 
-            <EmailValidation/>
-
-          {/* </form> */}
         </div>
       </section>
     </>

@@ -123,6 +123,15 @@ body {
     margin: 1rem 0;
   }
 
+  @media (min-width: 1024px) {
+    .article-div div:nth-child(2){
+      transform: translateY(0.625rem);
+    }
+    .article-div div:nth-child(3){
+      transform: translateY(1.25rem );
+    }
+  }
+
   @media (min-width: 768px) {
     .footer-ul li:nth-child(2) {
       margin: 0rem;
